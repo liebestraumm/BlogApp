@@ -1,3 +1,12 @@
-i.icon{
+i.code.icon{
 	font-size: 2em;
+}
+
+#text-center{
+	font-size: 1.2em;
+}
+
+.ui.container.main {
+	margin-top: 5.0em;
+	width: 50%;
 }

@@ -4,10 +4,10 @@
 
 <% blogs.forEach(function(blogs){ %>
 	<div>
-		<h2> <%= blog.title %></h2>
-		<img src = <%= blog.image %>
-		<span> <%= blog.created %> </span>
-		<p> <%= blog.body %> </p>
+		<h2> <%= blogs.title %></h2>
+		<img src = <%= blogs.image %>
+		<span> <%= blogs.created %> </span>
+		<p> <%= blogs.body %> </p>
 	</div>
 
 <% }); %>

@@ -32,6 +32,23 @@ app.get("/blogs", function(req, res){
 	})
 });
 
+app.post("/blogs", function(req, res){
+	Blogs.create(req.body.bloges, function(error, dbblog){
+		if(error){
+			console.log(error);
+		}
+		else{
+			res.redirect("/blogs");
+		}
+
+	});
+});
+
+app.get("/blogs/new", function(req, res){
+	res.render("new");
+
+});
+
 app.get(/\/[a-zA-Z]*/, function(req, res){
 
 	res.redirect("/blogs");
