@@ -10,3 +10,16 @@ i.code.icon{
 	margin-top: 5.0em;
 	width: 50%;
 }
+.ui.blue.basic.button  {
+
+	float: left;
+}
+
+
+#h_effect{
+	transition: 0.5s linear;
+}
+
+#h_effect:hover {
+	background-color: magenta !important;
+}
